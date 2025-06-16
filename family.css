@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    text-align: center;
+    position: relative;
+}
+
+.fam-photo {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #444;
+}
+
+
+nav {
+    background-color: #6d7276;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+#father {
+    background: linear-gradient(to bottom right, #f0f4f8, #ffffff);
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+.father-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.father-photo img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.father-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.father-content h2 {
+    font-size: 36px;
+    color: #1d72b8;
+    margin-bottom: 20px;
+}
+
+.father-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+
+
+
+#mother {
+    background: linear-gradient(to bottom right, #fff0f5, #fefefe);
+    padding: 60px 10px;
+    font-family: 'Segoe UI', sans-serif;
+    
+}
+
+.mother-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mother-photo img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(255, 105, 180, 0.2);
+}
+
+.mother-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.mother-content h2 {
+    font-size: 36px;
+    color: #d63384;
+    margin-bottom: 20px;
+}
+
+.mother-content p {
+    font-size: 18px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+    color: #555;
+}
